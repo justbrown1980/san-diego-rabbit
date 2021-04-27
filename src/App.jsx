@@ -18,13 +18,13 @@ export default function App() {
            </div>
          </div>
          <nav>
-          <ul className="flex items-center justify-between my-4 text-sm font-semibold uppercase">
-            <li><a href="#" className="hover:text-gray-200">home</a></li>
-            <li><a href="#" className="hover:text-gray-200">about us</a></li>
-            <li><a href="#" className="hover:text-gray-200">adoption</a></li>
-            <li><a href="#" className="hover:text-gray-200">rabbit care</a></li>
-            <li><a href="#" className="hover:text-gray-200">services</a></li>
-            <li><a href="#" className="hover:text-gray-200">volunteer</a></li>
+          <ul className="flex items-center justify-between mt-4 text-sm font-semibold uppercase">
+            <li className="pb-4 transition duration-200 ease-in-out border-b-4 border-transparent hover:cursor-pointer hover:border-brand-light group"><a href="#" className="group-hover:text-brand-light">home</a></li>
+            <li className="pb-4 transition duration-200 ease-in-out border-b-4 border-transparent hover:cursor-pointer hover:border-brand-light group"><a href="#" className="group-hover:text-brand-light">about us</a></li>
+            <li className="pb-4 transition duration-200 ease-in-out border-b-4 border-transparent hover:cursor-pointer hover:border-brand-light group"><a href="#" className="group-hover:text-brand-light">adoption</a></li>
+            <li className="pb-4 transition duration-200 ease-in-out border-b-4 border-transparent hover:cursor-pointer hover:border-brand-light group"><a href="#" className="group-hover:text-brand-light">rabbit care</a></li>
+            <li className="pb-4 transition duration-200 ease-in-out border-b-4 border-transparent hover:cursor-pointer hover:border-brand-light group"><a href="#" className="group-hover:text-brand-light">services</a></li>
+            <li className="pb-4 transition duration-200 ease-in-out border-b-4 border-transparent hover:cursor-pointer hover:border-brand-light group"><a href="#" className="group-hover:text-brand-light">volunteer</a></li>
           </ul>
          </nav>
        </nav>
