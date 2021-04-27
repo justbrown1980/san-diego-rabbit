@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+    @apply inline-block px-3 py-2 text-sm font-semibold uppercase font-body;
+}
+
+
+.btn--primary {
+    @apply px-4 text-white bg-opacity-100 bg-brand-dark;
+}
+
+.btn--primary:hover {
+    @apply bg-opacity-80;
+
+}
+.btn--secondary {
+    @apply px-4 text-white bg-brand-light bg-opacity-80;
+}
+
+.btn--secondary:hover {
+    @apply bg-opacity-100;
+
+} 
+
+
+@tailwind utilities;
